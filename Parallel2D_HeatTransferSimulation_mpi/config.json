@@ -1,0 +1,22 @@
+{
+    "simulation": {
+        "nx": 100,
+        "ny": 100,
+        "alpha": 0.1,
+        "steps": 1000,
+        "output_interval": 100
+    },
+    "boundary_conditions": {
+        "top_temp": 100.0,
+        "bottom_temp": 100.0,
+        "left_temp": 0.0,
+        "right_temp": 0.0
+    },
+    "visualization": {
+        "colormap": "hot",
+        "output_format": "png",
+        "create_animation": true,
+        "animation_fps": 10,
+        "dpi": 150
+    }
+}
